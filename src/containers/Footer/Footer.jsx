@@ -19,7 +19,7 @@ const Footer = () => (
       </div>
 
       <div className="app__footer-links_logo">
-        <img src={images.gericht} alt="footer_logo" />
+        {/* <img src={images.logo} alt="footer_logo" /> */}
         <p className="p__opensans">
           &quot;The best way to find yourself is to lose yourself in the service
           of others.&quot;
@@ -47,7 +47,7 @@ const Footer = () => (
     </div>
 
     <div className="footer__copyright">
-      <p className="p__opensans">2022 Gericht. All Rights reserved.</p>
+      <p className="p__opensans">&copy; 2022. All Rights reserved.</p>
     </div>
   </div>
 );
